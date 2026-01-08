@@ -44,4 +44,6 @@ respond to webhook node
 ![alt text](l9_c_s5.png)
 
 no matter if the `data` folder is owned by `$(whoami)`, nor if it has `drwxrwxrwx+` permissions, the file refuses to write. i've tried `/workspaces/iit-n8n-tasks-259788/data/notes.txt`, `~/data/notes.txt`, some combination of the two, to no avail. i've genuinely ran out of ideas.
+
+Note: this is broken due to a differing version of `n8n`. Declared for extra points :3
 ![alt text](l9_c_sError.png)
